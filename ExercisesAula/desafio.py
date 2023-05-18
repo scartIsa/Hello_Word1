@@ -10,6 +10,10 @@ if B < 18 or B > 30:
     quit()
 C = input("Endereço: ")
 
+while "rua" not in C.lower():
+    print("Endereço inválido, digite novamente: ")
+    C = input("Endereço: ")
+
 
 
 
